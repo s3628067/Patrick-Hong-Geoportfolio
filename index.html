@@ -1,0 +1,315 @@
+<!doctype html>
+<html>
+<head> <!--Contains Metadata only. Little needs to be changed in this section-->
+<meta charset="utf-8">
+<title>Geoportfolio</title> <!--Changes the name on the tab-->
+	<link rel="stylesheet" href="geoportfoliocss.css"> <!--DO NOT ALTER. This is the -->
+	<link rel="icon" type="image/x-icon" href="favicon.png"> <!--#ID# #FAVICON# This changes the picture shown on the tab. Change the file name under href to your desired image e.g. href="favicon.png"-->
+</head>
+
+<body> <!--Everything in between <body> and </body> affects the display of your Geoportfolio and what is shown-->
+	<!--Start of navigation bar-->
+	<div id="sidebar" class="sidebar-animate-open" style="display:none"> <!--MUST BE AT TOP OF DOCUMENT-->
+		<button onclick="close_sidebar()" class="sidebar-menu-button close-sidebar-button">&times;</button>
+		<a href="#topofpage" class="sidebar-menu-button mainbutton">Home</a>
+		<a href="#about" class="sidebar-menu-button mainbutton">About</a>
+		<a href="#academicinfo" class="sidebar-menu-button mainbutton">Academic Information</a>
+		<a href="#industryexperience" class="sidebar-menu-button mainbutton">Industry Experience</a>
+		<a href="#sap" class="sidebar-menu-button mainbutton">Skills and Proficiencies</a>
+		<a href="#credits" class="sidebar-menu-button mainbutton">Acknowledgements</a>
+		<div class="other-sidebar-info">
+			<table class="sidebar-contact-table"> 
+				<tr>
+					<td>
+						<a href="https://www.linkedin.com/in/pathongmelbourne/" target="_blank"><img src="linkedin.png" class="sidebar-images"></a> <!-- #ID# #LINKEDIN# Change LinkedIn link to one of your profile page -->
+					</td>
+					<td>
+						<a href="https://www.linkedin.com/in/pathongmelbourne/" target="_blank">LinkedIn</a> <!-- #ID# #LINKEDIN# Change LinkedIn link to one of your profile page-->
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<!--End of navigation bar-->
+
+	<div class="header"> <!--Code for Header that opens the sidebar. DO NOT TOUCH-->
+		<button class="sidebar-menu-button open-sidebar-button" onclick="open_sidebar()">&#9776;</button>
+	</div>
+	
+	<div class="mapbgdiv" id="topofpage">
+		<img src="mapwelcomemod.jpg" alt="map" class="mapbg">
+		<div class="title">
+			<h1>Geoportfolio</h1>
+			<h2>Patrick Hong</h2> <!-- #ID# #NAME# INSERT YOUR NAME HERE-->
+		</div>
+	</div>
+
+	<!--INTRODUCTION AND ABOUT-->
+	<div class="intro bar" id="about"><h2>About</h2></div> <!-- #ID# #INTROHEADING# Change the text of the introduction bar here-->
+	<div class="about">
+		Hi there! Welcome to my Geoportfolio. My name is Patrick Hong. I am born and raised in Melbourne. As of August 2024 I am in my fourth and final year of the Bachelor of Surveying
+		degree at RMIT University. My surveying-related interests include cadastral surveying, GPS work and drafting feature surveys.
+		<p>
+		My final year major project that I am currently working on consists of looking at current AR/VR tools that are currently on the market. 
+		How useful are these tools to the field of surveying? One test I have already conducted was through Adobe Aero. 
+		I created a virtual marker at a specified coordinate. Then I went out and visited the same surveying mark, 
+		to see the virtual marker could point me in the direction of the surveying mark. Amazingly, it worked well! 
+		It was within around half a metre of the surveying mark, which was impressive given that it was running entirely off a smartphone. 
+		</p>
+		<p>
+		My own personal hobbies include walking, eating out, cars and going to concerts!
+		</p>	
+	<img src="self-portrait.jfif" height="500px" width="auto" class="image"> 
+	<!-- #ID# #SELFPORTRAIT# Change the img src name to match the name of your own self-portrait or delete my image and name your image the same name and place it in the same folder -->
+	</div>
+	<!--END OF INTRODUCTION AND ABOUT SECTION-->
+
+	<!--ACADEMIC PORTFOLIO-->
+	<div class="pagetitle" id="academicinfo">
+        <span class="title-ul">Academic Portfolio Overview</span>
+    </div>
+
+	<!--SUBJECT 1-->
+	
+	<div class="bar"><h2>Capstone Design</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you have done yourself-->
+	<div class="paragraphs"> <!-- #ID# #AP TEXT# -->
+		Capstone (Design) is the first half of the final year major project assessment. It focuses on designing 
+		and proposing your very own major project. You are then paired with a supervisor, who will guide you throughout 
+		the remainder of the year to make sure the ambitious project comes through to fruition.
+		<ul> <!--Bullet points below-->
+			<li>Assessment 1: Student supervisor agreement. An agreement signed by both parties 
+				that outlines the expected duties from each other. 
+				This includes frequency of meetings.</li>
+			<li>Assessment 2: Poster conference presentation. Creation of a poster that showcases your major project 
+				and it's research questions. Presented to other staff and industry professionals</li>
+			<li>Assessment 3: Literature Review and project plan. A report of similar published literature directly relevant 
+				to your project. Project plan sets out the expected timeline for the remainder of the year. </li>
+		</ul> <!--End of bullet points-->
+		<p>
+			Below is a photo of my Capstone Design poster that was presented in May 2024:
+		</p>
+		<p>
+			<b>Note:</b> If map display is too small, right-click the image and 'Open in new tab' to allow zooming of the map.
+		</p>
+	</div>	
+	<div class="bar"><h3>Capstone Poster: Survey Mark Augmented Reality Tool</h3></div> <!--Assignment name-->
+	<img src="capstoneposter.jpeg" width="auto" height="800px" class="image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+
+	<!--END OF SUBJECT 1-->
+
+
+	<!--SUBJECT 2-->
+
+	<div class="bar"><h2>Cadastral Surveying Law</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you have done yourself-->
+	<div class="paragraphs">
+		Cadastral Surveying Law was another course I completed. 
+		It focuses on becoming familiar with key cadastral surveying concepts. Such as:
+		<ul>
+			<li>Crown Boundaries</li>
+			<li>Advanced Principles of Title Reestablishment</li>
+			<li>Government and Freehold Roads</li>
+			<li>Easements and Reserves</li>
+		</ul>
+		<p>
+		Cadastral Surveying Law also gave me the opportunity to gain more practical experience, 
+		by doing a full surveying in the suburb of Parkville. This was then drafted 
+		on a handwritten A3 sheet of paper. Comps were done using closure programs on the HP35s calculator. 
+		</p>
+		Below is my submission for the Parkville Practical Assessment
+		<p>
+			<b>Note:</b> If map display is too small, right-click the image and 'Open in new tab' to allow zooming of the map.
+		</p>
+	</div>	
+
+	<div class="bar"><h3>Parkville Practical</h3></div>
+	<img src="parkville.jpeg" width="auto" height="700px" class="image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+
+	<!--SUBJECT 2-->
+
+	
+	<!--INDUSTRY EXPERIENCE-->
+
+	<div class="pagetitle" id="industryexperience">
+        <span class="title-ul">Industry Experience</span>
+    </div>
+	<div class="paragraphs">
+		This page will briefly cover all of my work experience (as of August 2024) within the surveying industry. The two
+		main companies that I have worked at were Peter Richards Surveying and Northpoint Survey. This page will outline my experience
+		gained and skills I have learned from working at Peter Richards Surveying 
+	</div>
+
+	<!--COMPANY 1-->
+
+    <div class="bar"><h3>Peter Richards Surveying</h3></div> <!-- #ID# #COMPANY# Change to your company name-->
+	<img src="prslogo.png" width="auto" height="100px" class="image"> <!-- #ID# #COMPANY# #PICTURE# Change the image to be of a company logo you have worked for-->
+	<div class="job-title">Survey Assistant</div> <!-- #ID# #COMPANY# Change to your company position-->
+	<div class="job-time">August 2019 - Present</div> <!--Change the month and year worked-->
+	<div class="job-overview">
+		For the last 5 years I have been working at Peter Richards Surveying as a Survey Assistant. Throughout my time I have been to many different sites all across
+		Victoria. I chose to work at Peter Richards Surveying as I had heard great things from friends who have worked there. At the time, they were also conveniently
+		located in Watsonia, which is just 10 minutes drive from where I live. For many of the work days, my job is to accompany the party leader on site. My role is to
+		operate the total station, collect feature points on the controller and carry around the equipment
+		
+		I have also had the opportunity to do feature surveys on my own, with one of them being a large full surrounds survey in Doncaster East. This involved collecting
+		everything on our property, as well as building points on the surrounding houses. I then drafted the entire survey in AutoCAD, which became a 2D feature plan that
+		was sent to the client.
+		<p>
+		At Peter Richards Surveying I am also in charge of doing the majority of our GPS jobs. Many of our jobs require AHD and MGA connection. My role is to return to many
+        of our sites and measure relevant marks using the GPS. After doing this, I need to search and locate nearby Permanent Marks. Back in the office, I reduce and compute
+        the GPS data in Excel.		
+		</p>
+	</div>
+	<!--END OF COMPANY 1-->
+	
+	
+	<!--COMPANY 2-->
+
+	<div class="bar"><h3>Northpoint Survey</h3></div> <!-- #ID# #COMPANY# Change to your company name-->
+	<img src="northpoint.png" width="auto" height="100px" class="image"> <!-- #ID# #PICTURE# Change the image to be of a company logo you have worked for-->
+	<div class="job-title">Survey Assistant</div> <!-- #ID# #COMPANY# Change to your company position-->
+	<div class="job-time">January 2018 - June 2019</div> <!--Change the month and year worked-->
+	<div class="job-overview">
+		Northpoint Survey was my first surveying job, and I worked there for a short period after doing my work experience placement there. Whilst I was there I worked on
+		a 3D laser scan of the check in terminals at Melbourne Airport. This was done at night time from 10pm to 4am during the off peak times. The results were then 
+		processed in Trimble Realworks. All 50 scans were stitched together and then used to create a feature plan of the check in terminals. 
+		<p>
+		I also did drafting work for the Melbourne Airport baggage conveyor belts, where I used Bentley PowerCivil V8i to show the conveyor belts.		
+		</p>
+	</div>
+	<!--END OF COMPANY 2-->
+
+
+	<!--Skills and Proficiencies table-->
+	<div class="bar" style="top:57px" id="sap"><h2>Skills and Proficiencies</h2></div> <!-- #ID# #SKILLS# -->
+    <div class="skills">
+        <table class="icontable">
+            <tr>
+                <td><img src="Icons/GIS.png" class="iconimages"></td>
+				<td>GIS</td>
+                <td><img src="Icons/cartography-icon.png" class="iconimages"></td>
+				<td>Cartographic Principles</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/rs-satellite-icon.png" class="iconimages"></td>
+				<td>Remote Sensing</td>
+                <td><img src="Icons/drone-icon.png" class="iconimages"></td>
+				<td>Photogrammetry and Drone Mapping</td>
+            </tr>
+        </table>
+    </div>
+	<!--END OF Skills and Proficiencies table-->
+
+
+	<!--CREDITS AND ATTRIBUTIONS-->
+	<div class="pagetitle" id="credits"> <!-- #ID# #CREDITS#-->
+        <span class="title-ul">Credits and Attributions</span>
+    </div>
+    
+    <div class="paragraphs">
+       <b> The following programming languages and software were used to create the website</b>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Visual Studio Basic</li>
+        </ul>
+       <b>The deliverables contains content from the following subjects:</b>
+        <ul>
+            <li>Cadastral Surveying Law (GEOM2350)</li>
+            <li>Capstone Research (Design) (GEOM2114)</li>
+        </ul>
+       <b>Special thanks to the following people who have helped me make this website with their expertise and guidance:</b>
+        <ul>
+            <li>Chayn Sun</li>
+            <li>Barbara Kasieczka</li>
+            <li>Shuyi Cai</li>
+            <li>Kaige Wang</li>
+            <li><a href="https://www.w3schools.com/">W3Schools</a> and <a href="https://stackoverflow.com/">Stack Overflow</a> (a lot!)</li>
+            <li><a href="https://www.flaticon.com/">Flaticon</a></li>
+        </ul>
+        As per the policy of using the Flaticons with a free account, the attributions and crediting of the creators of the icons are as below:
+		
+	<div class="bar"><h2>Attributions of icons used:</h2></div>
+    <table id="attribution-table">
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/database" title="database icons">Database icons created by Stockio - Flaticon</a></th>
+            <th><img src="Icons/sql.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/draw" title="draw icons">Draw icons created by monkik - Flaticon</a></th>
+            <th><img src="Icons/cartography-icon.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/adobe-illustrator" title="adobe illustrator icons">Adobe illustrator icons created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/adobe-illustrator.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/python" title="python icons">Python icons created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/python-icon.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/html" title="html icons">Html icons created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/web-design.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/web-site" title="web site icons">Web site icons created by wanicon - Flaticon</a></th>
+            <th><img src="Icons/webgis.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/drone" title="drone icons">Drone icons created by Smashicons - Flaticon</a></th>
+            <th><img src="Icons/drone-icon.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/satellite" title="satellite icons">Satellite icons created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/rs-satellite-icon.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a></th>
+            <th><img src="linkedin.png" class="icon-attribute"></th>
+        </tr>
+    </table>
+	</div>
+	<!--END OF CREDITS AND ATTRIBUTIONS-->
+
+
+
+	<!--FOOTER-->
+	<div class="footer"> 
+		<div class="compilationinformation"> <!-- #ID# #COMPINFO# -->
+			<b>Compilation information</b>
+			<br>Website made in Adobe Dreamweaver and Visual Studio Code.
+			<br>HTML and CSS code written by Patrick Hong.
+		</div>
+		<table class="contacttable"> <!-- #ID# #CONTACT# -->
+			<caption><h2>Contact Information</h2></caption>
+			<tr>
+				<th><img src="mappin.png" alt="pointer" class="contactimages"></th>
+				<th><img src="mail.png" alt="email" class="contactimages"></th>
+				<th><img src="phone.png" alt="phone" class="contactimages"></th>
+			</tr>
+			<tr>
+				<th>
+					Work address:
+					<br>Heidelberg, Melbourne, Victoria, Australia, 3084</th>
+				<th>
+					Email Patrick Hong here:
+					<br><a href = "mailto:pathong@live.com.au">pathong@live.com.au</a>
+				</th>
+				<th>Mobile:
+					<br>0457-257-457
+				</th>
+			</tr>
+		</table>
+	</div>
+	<!--END OF FOOTER-->
+
+</body>
+<script> //Code for opening and closing sidebar. DO NOT TOUCH OR EDIT THIS AS THIS IS WHAT WORKS THE SIDEBAR NAVIGATION
+    function open_sidebar() {
+      document.getElementById("sidebar").style.display = "block";
+    }
+    function close_sidebar() {
+      document.getElementById("sidebar").style.display = "none";
+    }
+</script>
+</html>
